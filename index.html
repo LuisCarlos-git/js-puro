@@ -8,6 +8,30 @@
     <title>Js na marra</title>
   </head>
   <body>
-    <div><h1>hello Luis</h1></div>
+    <div class="container">
+      <div class="error">
+        <span>- Email ou senha invalido</span>
+      </div>
+      <form>
+        <label for="email">E-mail</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="digite seu email..."
+        />
+        <label for="password">Senha</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="digite sua senha..."
+        />
+
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+
+    <script src="javascript/validation-form.js"></script>
   </body>
 </html>
